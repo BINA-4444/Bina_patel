@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>website</title>
+    <style>
+        *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+header{
+    width: 100%;
+    height: 100px;
+    background: #171717;
+}
+
+header nav{
+    width: 100%;
+    display:flex;
+    padding: 10px 5% 8px 5%;
+    justify-content: space-between;
+    align-items:center;
+    margin-bottom: 20px;
+    background: #171717;
+}
+ 
+header nav .logo h1{
+    font-size: 40px;
+    color: #fff;
+    cursor: pointer;
+    padding: 20px;
+}
+
+header nav .logo h1 span{
+    color: #ffe100;
+    margin-left: 8px;
+    text-decoration: underline;
+}
+
+header nav .right ul{
+    list-style: none;
+}
+
+header nav .right ul li{
+    display: inline-block;
+    margin: 0 5px;
+}
+
+header nav .right ul li a{
+    color: #fff;
+    text-decoration: none;
+    transition: 0.4s;
+}
+
+header nav .right ul li a:hover{
+    color: #ffe100;
+}
+.card-container{
+    width: 100%;
+    border: 2px solid #ddd
+    padding : 10px;
+    background-color: #fff;
+    height : 370px;
+    margin: 10px;
+}
+.slider{
+    display: flex;
+    gap: 10px;
+}
+.card{
+    width: 250px;
+    height: 300px;
+    color: aliceblue;
+    font-size: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin : 30px;
+    margin-right: 10px;
+}
+.card img{
+    height:300px ;
+    width: 250px;
+    border-radius: 10px ;
+    margin: 50px;
+}
+.card img:hover{
+    backdrop-filter: blur(8px);
+    height: 320px;
+    width: 270px;
+}
+footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0; 
+            width: 100%;
+            height: 150px;
+            bottom: 0;
+            margin-bottom: 20px;
+        }
+
+        
+        footer a {
+            color: white;
+            margin: 0 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <h1>Movie<span>Hub</span></h1>
+            </div>
+
+            <div class="right">
+            <ul>
+               <li><a href="#">Home</li>
+               <li><a href="#">About</li>
+               <li><a href="#">TV show</li>
+               <li><a href="#">Newsletter</li>
+               <li><a href="#">Blog</li>
+               <li><a href="#">Contact</li>
+            </ul>
+            </div>
+        </nav>
+    </header>
+    <section>
+        <div class="card-container">
+            <div class="slider">
+            <div class="card">
+                <img src="s1.jpeg">
+            </div>
+            <div class="card">
+                <img src="s2.jpeg">  
+            </div>
+            <div class="card">
+                <img src="s3.jpeg">   
+            </div>
+            <div class="card">
+                <img src="s4.jpeg">   
+            </div>
+            <div class="card">
+                <img src="s5.jpeg">   
+            </div>
+            </div>
+        </div>
+        <div class="card-container">
+            <div class="slider">
+            <div class="card">
+                <img src="s6.jpeg">   
+            </div>
+            <div class="card">
+                <img src="s7.jpeg">   
+            </div>
+            <div class="card">
+                <img src="s8.jpeg">   
+            </div>
+            <div class="card">
+                <img src="s9.jpeg">   
+            </div>
+            <div class="card">
+                <img src="s10.jpeg">   
+            </div>
+            </div>
+        </div>
+        <div class="card-container">
+            <div class="slider">
+            <div class="card">
+                <img src="s11.jpeg">   
+            </div>
+            <div class="card">
+                <img src="s12.jpeg">   
+            </div>
+            <div class="card">
+                <img src="s13.jpeg">   
+            </div>
+            <div class="card">
+                <img src="s14.jpeg">   
+            </div>
+            <div class="card">
+                <img src="s15.jpeg">   
+            </div>
+            </div>
+        </div>
+        </section>
+        <footer>
+            <p>&copy; 2025 My Website. All rights reserved.</p>
+            <p>
+                <a href="#">Privacy Policy</a> | 
+                <a href="#">Terms of Service</a>
+            </p>
+        </footer>
+</body>
+</html>

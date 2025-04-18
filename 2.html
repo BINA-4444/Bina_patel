@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>website</title>
+    <style>
+        *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+header{
+    width: 100%;
+    height: 100px;
+    background: #171717;
+}
+
+header nav{
+    width: 100%;
+    display:flex;
+    padding: 10px 5% 8px 5%;
+    justify-content: space-between;
+    align-items:center;
+    margin-bottom: 20px;
+    background: #171717;
+}
+ 
+header nav .logo h1{
+    font-size: 40px;
+    color: #fff;
+    cursor: pointer;
+    padding: 20px;
+}
+
+header nav .logo h1 span{
+    color: #ffe100;
+    margin-left: 8px;
+    text-decoration: underline;
+}
+
+header nav .right ul{
+    list-style: none;
+}
+
+header nav .right ul li{
+    display: inline-block;
+    margin: 0 5px;
+}
+
+header nav .right ul li a{
+    color: #fff;
+    text-decoration: none;
+    transition: 0.4s;
+}
+
+header nav .right ul li a:hover{
+    color: #ffe100;
+}
+.card-container{
+    width: 100%;
+    border: 2px solid #ddd
+    padding : 10px;
+    background-color: #fff;
+    height : 370px;
+    margin: 10px;
+}
+.slider{
+    display: flex;
+    gap: 10px;
+}
+.card{
+    width: 250px;
+    height: 300px;
+    color: aliceblue;
+    font-size: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin : 30px;
+    margin-right: 10px;
+}
+.card img{
+    height:300px ;
+    width: 250px;
+    border-radius: 10px ;
+    margin: 50px;
+}
+.card img:hover{
+    backdrop-filter: blur(8px);
+    height: 320px;
+    width: 270px;
+}
+footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0; 
+            width: 100%;
+            height: 150px;
+            bottom: 0;
+            margin-bottom: 20px;
+        }
+
+        
+        footer a {
+            color: white;
+            margin: 0 10px;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <h1>Movie<span>Hub</span></h1>
+            </div>
+
+            <div class="right">
+            <ul>
+               <li><a href="#">Home</li>
+               <li><a href="#">About</li>
+               <li><a href="#">TV show</li>
+               <li><a href="#">Newsletter</li>
+               <li><a href="#">Blog</li>
+               <li><a href="#">Contact</li>
+            </ul>
+            </div>
+        </nav>
+    </header>
+    <section>
+        <div class="card-container">
+            <div class="slider">
+            <div class="card">
+                <img src="AGHATHIYAA.JPG">
+            </div>
+            <div class="card">
+                <img src="chhaava.jpg">  
+            </div>
+            <div class="card">
+                <img src="3 IDIOTS.JPG">   
+            </div>
+            <div class="card">
+                <img src="GENIUS.JPG">   
+            </div>
+            <div class="card">
+                <img src="ISMART SHANKAR.JPG">   
+            </div>
+            </div>
+        </div>
+        <div class="card-container">
+            <div class="slider">
+            <div class="card">
+                <img src="KGF 2.JPG">   
+            </div>
+            <div class="card">
+                <img src="PUSHPA 2.JPG">   
+            </div>
+            <div class="card">
+                <img src="PUSHPA.JPG">   
+            </div>
+            <div class="card">
+                <img src="SANAM TERI KASAM 2.JPG">   
+            </div>
+            <div class="card">
+                <img src="SANAM TERI KASAM.JPG">   
+            </div>
+            </div>
+        </div>
+        <div class="card-container">
+            <div class="slider">
+            <div class="card">
+                <img src="bholaa.jpeg">   
+            </div>
+            <div class="card">
+                <img src="atrangi re.jpeg">   
+            </div>
+            <div class="card">
+                <img src="rocy anr rani.jpeg">   
+            </div>
+            <div class="card">
+                <img src="yeh jawaani.jpeg">   
+            </div>
+            <div class="card">
+                <img src="dil wale.jpeg">   
+            </div>
+            </div>
+        </div>
+        </section>
+        <footer>
+            <p>&copy; 2025 My Website. All rights reserved.</p>
+            <p>
+                <a href="#">Privacy Policy</a> | 
+                <a href="#">Terms of Service</a>
+            </p>
+        </footer>
+</body>
+</html>
